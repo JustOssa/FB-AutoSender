@@ -48,6 +48,27 @@ In order to run the python script, your system must have the following programs/
    ```
 4. Enter your target users in `ids.csv`
 
+### Usage
+
+Run the script in any shell on a system with Python installed/configured.
+   ```sh
+   python main.py
+   ```
+
+
+## To do
+- Add gui
+
+
+## Notes
+If you wish to send an image instead of text you can uncomment attachment section in `main.py`.
+ 
+This script is for saved contact ids only, if you want to retrieve facebook ids in bulk from friends/groups. You may prefer another repository.
+
+* Repository: https://github.com/JustOssa/FB-AutoExtracter
+
+Facebook constantly change their html class names, which may break this script. File an issue if something weird happens -- or more likely, doesn't happen.
+
 
 ## Contact
 
